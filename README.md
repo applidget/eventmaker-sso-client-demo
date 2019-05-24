@@ -5,7 +5,7 @@ This app is an example of OAuth 2 client. It was built in order to test an Event
 
 ## Installation
 
-You will need a working installation of ruby. First clone this repository, then install dependencies with `bundle install` (you will neeed bundler for that).
+You will need a working installation of ruby. First clone this repository, then install dependencies with `bundle install` (you will need bundler for that).
 
 ## Configuration
 
