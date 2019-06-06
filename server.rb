@@ -138,7 +138,7 @@ class Server < Sinatra::Base
   get '/sign_out' do
     session[:access_token] = nil
     session[:refresh_token] = nil
-    redirect '/'
+    redirect "#{app.provider_url}/contacts/sign_out?redirect_uri=#{app.confidential_client_redirect_uri}"
   end
 
   get '/callback' do
